@@ -4,7 +4,6 @@ const CACHE_NAME = 'code_cahe_v1';
 const urlsToCache = [
   ".",
   'js/jquery.min.js',
-  'js/zxing-browser.min.js',
   'js/index.min.js',
   'js/read_barcode.js' 
 ];

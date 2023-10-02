@@ -1,5 +1,6 @@
 //キャッシュ名(=バージョン)を指定する
-const CACHE_NAME = 'code_cahe_v1';
+const CACHE_VERSION = 'v1';
+const CACHE_NAME = `${registration.scope}!${CACHE_VERSION}`;
 //キャッシュするファイル or ディレクトリを指定する
 const urlsToCache = [
   ".",

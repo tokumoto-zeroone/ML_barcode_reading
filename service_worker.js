@@ -3,9 +3,9 @@ const CACHE_NAME = 'code_cahe_v1';
 //キャッシュするファイル or ディレクトリを指定する
 const urlsToCache = [
   ".",
-  'js/jquery.min.js',
   'js/index.min.js',
-  'js/read_barcode.js' 
+  'js/read_barcode.js',
+  'js/zxing-browser.min.js',
 ];
 
 // install
